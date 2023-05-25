@@ -1,0 +1,52 @@
+{
+  "bots": [
+    {
+      "bot_id": "LLS-098",
+      "timestamp": "2023-05-24 15:00:00.000",
+      "location": {
+        "lat": 37.4274787,
+        "lon": -122.1745899
+      },
+      "status": "available",
+      "battery_level": 78.3,
+      "software_version": "2.0",
+      "hardware_version": "5.0"
+    },
+    {
+      "bot_id": "BBD-028",
+      "timestamp": "2023-05-24 15:00:00.000",
+      "location": {
+        "lat": 37.4274787,
+        "lon": -122.1745899
+      },
+      "status": "busy",
+      "battery_level": 22.5,
+      "software_version": "2.0",
+      "hardware_version": "5.0"
+    },
+    {
+      "bot_id": "JSU-378",
+      "timestamp": "2023-05-24 15:00:00.000",
+      "location": {
+        "lat": 37.4274787,
+        "lon": -122.1745899
+      },
+      "status": "reserved",
+      "battery_level": 44.5,
+      "software_version": "2.0",
+      "hardware_version": "5.0"
+    },
+    {
+      "bot_id": "SYS-272",
+      "timestamp": "2023-05-24 15:00:00.000",
+      "location": {
+        "lat": 37.4274787,
+        "lon": -122.1745899
+      },
+      "status": "available",
+      "battery_level": 34.22,
+      "software_version": "2.0",
+      "hardware_version": "5.0"
+    }
+  ]
+}
