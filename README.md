@@ -1,6 +1,6 @@
 # API DOC FOR CHATBOT IMPLEMENTATION 🤖
 ## Introduction
-This is a Cloud Functions Project marked with the kind of create a service that recognizes any text in natural language from the user and processes the message, extracts the environments to create a ticket, that ticket will be saved and with other services can be getting, updating and deleting if the client wants.
+This is a Cloud Functions Project made with the goal of creating a service that recognizes any text in natural language from the user and processes the message, extracts the environments to create a ticket, this ticket will be saved and with other services can be getting, updating and deleting if the client wants.
 
 ## Tools ⚙️
 ```
@@ -20,7 +20,7 @@ for example:
 
 ![alt text](./img/cap1.png)
 
-- next step, change my testing data and send the request!!
+- next step, click in import and change the testing data finally send the request!!
 
 # API LIST
 ## API 1: Endpoint to receive natural language reports of problems with bots
@@ -35,7 +35,7 @@ curl --location 'https://supcustomkiwibot-qyfoq6f2ca-uc.a.run.app' \
 
 ### Description
 
-This API gets the message from the user and extracts the Kiwibot code to reference it, (for example, my KiwiBot has the code “LLS-098”), which is my reference to search in a JSON file, if my bot exists, get the heartbeat and process the ubication’s data, finally with my initial message whi help of open IA, y extract the problem type and classified it in software, hardware o custom field.
+This API gets the message from the user. It extracts the Kiwibot code ID type to reference it, (for example, my KiwiBot has the code “LLS-098”), which is my reference to search it in a JSON file, if my bot exists, get the heartbeat and processes the ubication's data, finally with my initial message whi help of open IA, y extract the problem type and classified it in software, hardware o custom field.
 
 next, build a JSON with the ticket information, and It'll be saved in Firestore
 
